@@ -1,0 +1,23 @@
+{
+  "name": "wdio-starter",
+  "version": "1.0.0",
+  "description": "A starter kit for your e2e tests with webdriver.io and selenium-standalone",
+  "main": "wdio.conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linkmesrl/wdio-starter.git"
+  },
+  "keywords": [
+    "selenium",
+    "webdriver.io"
+  ],
+  "author": "Linkmesrl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linkmesrl/wdio-starter/issues"
+  },
+  "homepage": "https://github.com/linkmesrl/wdio-starter#readme"
+}
