@@ -7,13 +7,13 @@ In order to run tests you will need to set up your local machine with selenium a
 INSTALL SELENIUM
 --------------
 ```
-sudo npm install -g selenium-standalone
+(sudo) npm install -g selenium-standalone
 selenium-standalone install
 selenium-standalone start
 ```
 Selenium standalone require [java sdk](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) to be installed on your local machine
 
-DRIVER CHROME (not sure if needed)
+~~DRIVER CHROME~~ (not sure if needed, it gives some error at the moment)
 --------------
 ```
 sudo selenium-standalone install --drivers.chrome.version=2.15 --drivers.chrome.baseURL=https://chromedriver.storage.googleapis.com​
@@ -21,13 +21,15 @@ sudo selenium-standalone install --drivers.chrome.version=2.15 --drivers.chrome.
 INSTALL WEBDRIVER AND MOCHA
 --------------
 ```
-npm install -g webdriverio
-sudo npm install -g wdio-mocha-framework
-sudo npm install -g mocha​
+(sudo) npm install -g webdriverio
+(sudo) npm install -g wdio-mocha-framework
+(sudo) npm install -g mocha​
 ```
 
-CREATE WEBDRIVER CONFIG FILE, (wdio.conf.js is already created in this project)
+CREATE WEBDRIVER CONFIG FILE
 --------------
+If you clone this repo you don't need to make the next step, since folder with simple configuration is already there.
+Those are the steps you need to make to have a configuration similar to this one.
 
 ```
 mkdir test-folder
@@ -46,10 +48,14 @@ wdio config
 
 RUN TEST
 --------------
-
 `wdio wdio.conf.js`
 
 
 USE CUSTOM VARIABLES
 --------------
 `USER=daniele wdio wdio.conf.js`
+
+WEBDRIVERIO APIS AND GUIDE
+--------------
+- [Guide](http://webdriver.io/guide.html)
+- [Api](http://webdriver.io/api.html)
