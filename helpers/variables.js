@@ -1,7 +1,7 @@
 const baseUrl = 'http://localhost:3001'
-const giovanni = {
-  username: 'giovanni.lela@link-me.it',
-  password: 'giovanni123'
+const daniele = {
+  username: 'daniele.bertella@link-me.it',
+  password: 'daniele'
 }
 
 const vars = {
